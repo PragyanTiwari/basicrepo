@@ -11,3 +11,6 @@ def binary_search(arr,item,low,high):
             return binary_search(arr,item,mid+1,high)
      
     return -1
+
+arr = list(range(20))
+vv = binary_search(arr,10,0,len(arr))
